@@ -7,6 +7,7 @@ import Issue958 from './repros/Issue958';
 import Issue959 from './repros/Issue959';
 import Issue962 from './repros/Issue962';
 import Issue963 from './repros/Issue963';
+import AlmostFits from './repros/AlmostFits';
 import { Btn, styles } from './repros/ui';
 
 const repros = {
@@ -17,6 +18,7 @@ const repros = {
   '959 (Android) extra inset with header + footer': Issue959,
   '962 (iOS) overlay accessibility': Issue962,
   '963 (Android) overlay clips shadows': Issue963,
+  '(iOS) almost fits above the keyboard': AlmostFits,
 };
 
 export default function App() {
@@ -27,7 +29,7 @@ export default function App() {
   }
   return (
     <ScrollView contentContainerStyle={[styles.screen, { flexGrow: 1 }]}>
-      <Text style={styles.title}>TrueSheet 4.0.0-beta.29 repros</Text>
+      <Text style={styles.title}>TrueSheet repros</Text>
       {Object.keys(repros).map((name) => (
         <Btn key={name} title={name} onPress={() => setOpen(name as keyof typeof repros)} />
       ))}
