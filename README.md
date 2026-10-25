@@ -19,6 +19,6 @@ Open the screen for an issue from the list. Each screen shows its steps at the t
 | [#959](https://github.com/lodev09/react-native-true-sheet/issues/959) extra scroll inset with header + absolute footer + keyboard | Android | [repros/Issue959.tsx](repros/Issue959.tsx) |
 | [#962](https://github.com/lodev09/react-native-true-sheet/issues/962) overlay content not accessible under a dimmed sheet | iOS | [repros/Issue962.tsx](repros/Issue962.tsx) |
 | [#963](https://github.com/lodev09/react-native-true-sheet/issues/963) overlay clips child shadows | Android | [repros/Issue963.tsx](repros/Issue963.tsx) |
-| (new) content that almost fits above the keyboard gets no inset, end stays under the footer | iOS | [repros/AlmostFits.tsx](repros/AlmostFits.tsx) |
+| [#975](https://github.com/lodev09/react-native-true-sheet/issues/975) content that almost fits above the keyboard gets no inset, end stays under the footer | iOS | [repros/AlmostFits.tsx](repros/AlmostFits.tsx) |
 
 The #955 to #963 screens were filed on beta.29. Checked on an iPhone 17 Pro simulator (iOS 26.5) and a Pixel 10 Pro emulator (Android 16, gesture navigation).
