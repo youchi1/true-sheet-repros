@@ -8,6 +8,7 @@ import Issue959 from './repros/Issue959';
 import Issue962 from './repros/Issue962';
 import Issue963 from './repros/Issue963';
 import AlmostFits from './repros/AlmostFits';
+import ShortFooter from './repros/ShortFooter';
 import { Btn, styles } from './repros/ui';
 
 const repros = {
@@ -19,6 +20,7 @@ const repros = {
   '962 (iOS) overlay accessibility': Issue962,
   '963 (Android) overlay clips shadows': Issue963,
   '(iOS) almost fits above the keyboard': AlmostFits,
+  'Short sheet: band above the footer': ShortFooter,
 };
 
 export default function App() {

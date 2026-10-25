@@ -20,5 +20,6 @@ Open the screen for an issue from the list. Each screen shows its steps at the t
 | [#962](https://github.com/lodev09/react-native-true-sheet/issues/962) overlay content not accessible under a dimmed sheet | iOS | [repros/Issue962.tsx](repros/Issue962.tsx) |
 | [#963](https://github.com/lodev09/react-native-true-sheet/issues/963) overlay clips child shadows | Android | [repros/Issue963.tsx](repros/Issue963.tsx) |
 | [#975](https://github.com/lodev09/react-native-true-sheet/issues/975) content that almost fits above the keyboard gets no inset, end stays under the footer | iOS | [repros/AlmostFits.tsx](repros/AlmostFits.tsx) |
+| (pending) short auto sheet: the band above the keyboard opens between the content and an absolute footer | iOS | [repros/ShortFooter.tsx](repros/ShortFooter.tsx) |
 
 The #955 to #963 screens were filed on beta.29. Checked on an iPhone 17 Pro simulator (iOS 26.5) and a Pixel 10 Pro emulator (Android 16, gesture navigation).
