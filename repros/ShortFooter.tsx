@@ -18,6 +18,7 @@ const VARIANTS: { label: string; props: Partial<TrueSheetProps>; padFooter?: boo
     padFooter: true,
   },
   { label: '#976 option 3: style flex 1', props: { style: { flex: 1 } } },
+  { label: 'keyboardOffset 34 (insets.bottom)', props: { footerOptions: { position: 'absolute', keyboardOffset: 34 } } },
 ];
 
 export default function ShortFooter({ onBack }: { onBack: () => void }) {
